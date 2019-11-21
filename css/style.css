@@ -39,12 +39,12 @@
 }
 .nav-top-left ul li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .nav-top-left ul li:nth-child(1) {
   padding-left: 0;
 }
-.nav-top-left ul li:nth-child(2) {
-  border-left: 2px solid #899397;
+.line {
+  color: #899397
 }
 /* /nav-top */
