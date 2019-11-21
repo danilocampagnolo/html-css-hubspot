@@ -39,12 +39,13 @@
 }
 .nav-top-left ul li {
   display: inline-block;
-  padding: 0 10px;
 }
 .nav-top-left ul li:nth-child(1) {
   padding-left: 0;
 }
-.line {
+.nav-top-left ul li:nth-child(1):after {
+  padding: 15px;
+  content: "|";
   color: #899397
 }
 /* /nav-top */
