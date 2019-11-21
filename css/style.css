@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* nav-top */
+.section-nav-top {
+  width: 100%;
+  height: 80px;
+  background-color: #F4F9FD;
+}
+.nav-top{
+  width: 80%;
+  height: 100%;
+  margin:auto;
+  background-color: red;
+}
+.nav-top::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.nav-top-left {
+  float:left;
+}
+.nav-top-right {
+  float:right;
+}
+/* /nav-top */
