@@ -5,6 +5,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 12px;
+}
+
 /* section-nav-top */
 .section-nav-top,
 .section-nav-bottom {
@@ -13,7 +20,8 @@
   background-color: #F4F9FD;
 }
 .nav-top,
-.nav-bottom{
+.nav-bottom,
+.container-title{
   width: 80%;
   height: 100%;
   margin:auto;
@@ -66,7 +74,7 @@
 .nav-top-right li a{
   color: white;
 }
-.button a {
+.button {
   padding: 10px 10px;
   border: 1px solid #FE7F65;
   border-radius: 5px;
@@ -94,5 +102,29 @@
 .freccetta i{
   margin-left: 5px;
 }
-
 /* /section-nav-bottom */
+/* jumbotrone */
+.jumbotron {
+  height: 610px;
+  width: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 0%;
+}
+.container-title {
+  width: 35%;
+  margin-left: 10%;
+}
+.title {
+  padding-top: 70px;
+}
+.title p{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.title .button {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 15px;
+}
+/* /jumbotrone */
