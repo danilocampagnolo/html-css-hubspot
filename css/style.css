@@ -11,7 +11,7 @@ h1{
   font-size: 40px;
 }
 p{
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -198,9 +198,6 @@ main {
 .feature h4{
   text-transform: uppercase;
 }
-.popolar-feature-float{
-  margin-bottom: 15px;
-}
 .text-popolar-feature,
 .hr-popolar-feature{
   float: left;
@@ -217,7 +214,15 @@ main {
   height: 30px;
   width: 650px;
 }
-
-
+.popolar-feature i{
+  color: #FE775A;
+  padding: 15px;
+}
+.popolar-feature span{
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
   /* /section-crm */
+
 /* /main */
