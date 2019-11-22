@@ -127,4 +127,11 @@ p{
   font-size: 12px;
   padding: 15px;
 }
+.banner-color {
+  width: 100%;
+  height: 80px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #AFEBE4;
+}
 /* /jumbotrone */
