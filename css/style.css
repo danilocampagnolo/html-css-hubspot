@@ -168,29 +168,35 @@ main {
 }
   /* /section-cube */
   /* section-crm */
-/* .container.crm::after {
+.container.crm::after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 .container.box.crm{
   height: 260px;
 }
 .img-left{
   float: left;
   width: 30%;
-  margin-top: 130px;
+  height: 100%;
+  margin-top: 170px;
   transform: translateY(-50%);
   text-align: center;
-
+  line-height: 35px;
 }
 .img-left img{
-  width: 150px;
+  width: 120px;
+}
+.img-left .button{
+  padding: 15px 25px;
+  text-transform: capitalize;
 }
 .feature {
   float: right;
   width: 70%;
   margin-top: 130px;
+  margin-right:
   transform: translateY(-50%);
 }
 
