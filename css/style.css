@@ -15,7 +15,7 @@ p{
   line-height: 20px;
 }
 
-main {
+body {
   background-color: #F4F9FD;
 }
 
@@ -53,7 +53,7 @@ main {
 
 .box {
   background-color: white;
-  box-shadow: 0px 0px 1px 1px #E6ECF1;
+  box-shadow: 0px 0px 2px 2px #E6ECF1;
 }
 /* general */
 /* section-nav-top */
@@ -224,5 +224,16 @@ main {
   text-transform: capitalize;
 }
   /* /section-crm */
-
+  /* container service */
+.container.service {
+  margin-top: 50px;
+}
+.box.column {
+  float: left;
+  width: 317px;
+}
+.box.column.center{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 /* /main */
