@@ -40,6 +40,21 @@ main {
   display: inline-block;
   margin-left: 15px;
 }
+
+.button {
+  padding: 10px 10px;
+  border: 1px solid #FE7F65;
+  border-radius: 5px;
+  background-color: #FE775A;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px #E6ECF1;
+}
 /* general */
 /* section-nav-top */
 .section-nav-top,
@@ -70,12 +85,6 @@ main {
 }
 .nav-top-right li a{
   color: white;
-}
-.button {
-  padding: 10px 10px;
-  border: 1px solid #FE7F65;
-  border-radius: 5px;
-  background-color: #FE775A;
 }
 #search {
   transform: translateY(4%);
@@ -124,8 +133,8 @@ main {
   margin-bottom: 35px;
 }
 .text-title .button {
-  text-decoration: none;
-  color: white;
+  /* text-decoration: none;
+  color: white; */
   font-size: 12px;
   padding: 15px;
 }
@@ -164,18 +173,25 @@ main {
   display: table;
   clear: both;
 } */
-
-.container.crm {
-  background-color: white;
+.container.box.crm{
+  height: 260px;
 }
 .img-left{
   float: left;
-  width: 380px;
-  height: 340px;
+  width: 30%;
+  margin-top: 130px;
+  transform: translateY(-50%);
+  text-align: center;
+
+}
+.img-left img{
+  width: 150px;
 }
 .feature {
-  width: 780;
-  height: 340;
+  float: right;
+  width: 70%;
+  margin-top: 130px;
+  transform: translateY(-50%);
 }
 
   /* /section-crm */
