@@ -119,7 +119,6 @@ main {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 0%;
 }
 .container.title {
   width: 35%;
@@ -133,8 +132,6 @@ main {
   margin-bottom: 35px;
 }
 .text-title .button {
-  /* text-decoration: none;
-  color: white; */
   font-size: 12px;
   padding: 15px;
 }
@@ -168,24 +165,19 @@ main {
 }
   /* /section-cube */
   /* section-crm */
-.container.crm::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .container.box.crm{
   height: 260px;
+  vertical-align: 260px;
 }
 .img-left{
   float: left;
   width: 30%;
   height: 100%;
-  margin-top: 170px;
-  transform: translateY(-50%);
   text-align: center;
   line-height: 35px;
 }
 .img-left img{
+  margin-top: 50px;
   width: 120px;
 }
 .img-left .button{
@@ -193,12 +185,39 @@ main {
   text-transform: capitalize;
 }
 .feature {
-  float: right;
-  width: 70%;
-  margin-top: 130px;
-  margin-right:
-  transform: translateY(-50%);
+  float: left;
+  width: 50%;
+  margin-top: 55px;
 }
+.feature h3 {
+  margin-bottom: 25px;
+}
+.feature p{
+  margin-bottom: 15px;
+}
+.feature h4{
+  text-transform: uppercase;
+}
+.popolar-feature-float{
+  margin-bottom: 15px;
+}
+.text-popolar-feature,
+.hr-popolar-feature{
+  float: left;
+}
+.hr-popolar-feature{
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 60%;
+}
+.hr-popolar-feature hr{
+  color: #899397;
+}
+.popolar-feature-float{
+  height: 30px;
+  width: 650px;
+}
+
 
   /* /section-crm */
 /* /main */
