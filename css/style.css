@@ -131,6 +131,9 @@ body {
   margin-top: 35px;
   margin-bottom: 35px;
 }
+.text-title p:last-of-type{
+  font-size: 10px;
+}
 .text-title .button {
   font-size: 12px;
   padding: 15px;
@@ -397,5 +400,24 @@ div .number-plus{
   vertical-align:middle;
   width: 100px;
   margin-left: 20px;
+}
+.container.title.woman{
+  width: 80%;
+}
+.container.title.woman::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.text-title.woman{
+  float: left;
+  width: 50%;
+}
+.img-woman {
+  float:right;
+}
+.img-woman img{
+  margin-top: 50px;
+  width: 220px;
 }
 /* /main */
