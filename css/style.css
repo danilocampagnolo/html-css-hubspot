@@ -487,9 +487,35 @@ div .number-plus{
   border-bottom: 1px solid #CBD6E2;
   padding-bottom: 15px;
 }
-.footer-bottom-top a{
+.footer-bottom-top a,
+.footer-bottom-bottom a{
   color: #CBD6E2;
   font-size: 12px;
   padding-right: 20px;
   text-decoration: none;
 }
+.footer-bottom-bottom:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.bottom-left {
+  float: left;
+  margin-top: 30px;
+}
+.bottom-left p{
+  color: #DADEE0;
+  font-size: 12px;
+}
+.bottom-left img{
+  width: 80px;
+}
+.bottom-right {
+  float: right;
+  margin-top: 30px;
+}
+.bottom-right a:last-child{
+  padding-right: 0px;
+}
+  /* /footer-bottom */
+/* footer */
