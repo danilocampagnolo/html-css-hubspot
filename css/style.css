@@ -298,10 +298,11 @@ body {
 }
 .container.numbers p{
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 .grid-numbers{
   width: 100%;
+  padding-bottom: 50px;
 }
 .grid-numbers::after{
   content: "";
@@ -325,6 +326,9 @@ body {
 .container.numbers .grid-numbers img{
   height: 25px;
 }
+#growthhub{
+  height:20px;
+}
 .section-grid.lateral{
   border-bottom: 1px solid white;
 }
@@ -339,5 +343,13 @@ div .number-plus{
   color: white;
   font-size: 20px;
   vertical-align: middle;
+}
+.section-grid.central{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.section-grid.central:nth-child(2){
+  border-bottom: 0px;
 }
 /* /main */
