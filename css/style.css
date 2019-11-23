@@ -295,6 +295,7 @@ body {
 .container.numbers h2{
   color: white;
   padding: 30px;
+  padding-top: 40px;
 }
 .container.numbers p{
   color: white;
