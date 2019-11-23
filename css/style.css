@@ -436,40 +436,40 @@ div .number-plus{
   display: table;
   clear: both;
 }
-.column {
+.column-footer {
   float: left;
   width: calc((100% / 4) - 20px);
-  /* margin: 10px; */
+  margin: 10px;
 }
-.column li{
+.column-footer li{
   display: block;
   margin-left: 0;
   line-height: 35px;
   font-size: 12px;
   text-transform: capitalize;
 }
-/* .column a{
-  color: #CBD6E2; */
+.column-footer a{
+  color: #CBD6E2;
 }
-/* .column li:first-child{
+.column-footer li:first-child{
   margin-top: 20px;
   padding-bottom: 10px;
   font-weight: 700;
-  color: white; */
+  color: white;
 }
-.column li:nth-child(7){
+.column-footer li:nth-child(7){
   width: 140px;
   line-height: 30px;
 }
-.column .button {
+.column-footer .button {
   text-align: center;
   border: 0px;
-  /* background-color: #DADEE0; */
+  background-color: #DADEE0;
   padding: 0px 0px 0px 0px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.column .button a{
+.column-footer .button a{
   font-size: 10px;
   color: #32495B;
 }
