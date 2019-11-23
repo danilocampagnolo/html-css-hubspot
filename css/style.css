@@ -227,6 +227,11 @@ body {
 .container.service {
   margin-top: 50px;
 }
+.container.service::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 .box.column {
   float: left;
   width: 30%;
@@ -278,5 +283,11 @@ body {
   padding: 15px 30px;
   text-transform: capitalize;
 }
-
+  /* /container-service */
+  /* section-numbers */
+.section-numbers{
+  height: 700px;
+  margin-top: 50px;
+  background-image: linear-gradient(to right, #00A9B8, #01B8AA);
+}
 /* /main */
