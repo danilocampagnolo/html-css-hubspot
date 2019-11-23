@@ -353,4 +353,49 @@ div .number-plus{
 .section-grid.central:nth-child(2){
   border-bottom: 0px;
 }
+  /* section-woman */
+.companies{
+  width: 70%;
+  margin:auto;
+}
+.companies::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.costumers-number{
+  float: left;
+  width: 40%;
+  height: 100%;
+  padding-right: 150px;
+  padding-top: 40px;
+}
+.costumers-number h2,
+.costumers-number p {
+  color:#33475B;
+}
+.costumers-number h2{
+  padding-bottom: 25px;
+  font-size: 40px;
+}
+.companies-logo{
+  float: left;
+  width: 60%;
+}
+.logos{
+  width: 100%;
+  height: 60%;
+  margin-top: 40px;
+}
+.row-logos{
+  line-height: 50px;
+}
+.row-logos.bottom{
+  margin-top: 10px;
+}
+.row-logos img{
+  vertical-align:middle;
+  width: 100px;
+  margin-left: 20px;
+}
 /* /main */
