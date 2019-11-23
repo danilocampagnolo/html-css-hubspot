@@ -10,6 +10,7 @@
 h1{
   font-size: 40px;
 }
+
 p{
   font-size: 14px;
   line-height: 25px;
@@ -17,6 +18,10 @@ p{
 
 body {
   background-color: #F4F9FD;
+}
+
+footer{
+  background-color: #32495B;
 }
 
 .container{
@@ -424,3 +429,33 @@ div .number-plus{
 }
   /* section-woman */
 /* /main */
+/* footer */
+  /* footer-top */
+footer{
+  width: 100%;
+  height: 600px;
+}
+.container.footer-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: calc(100% / 4);
+}
+.column li{
+  color: white;
+  display: block;
+  margin-left: 0;
+  line-height: 35px;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #CBD6E2;
+}
+.column li:first-child{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: white;
+}
