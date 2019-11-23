@@ -150,7 +150,7 @@ body {
 /* main */
   /* section-cube */
 .container.cube{
-  width: 45%;
+  width: 50%;
 }
 .img-cube{
   text-align: center;
@@ -356,6 +356,7 @@ div .number-plus{
 .section-grid.central:nth-child(2){
   border-bottom: 0px;
 }
+  /* /section-numbers */
   /* section-woman */
 .companies{
   width: 70%;
@@ -401,6 +402,7 @@ div .number-plus{
   width: 100px;
   margin-left: 20px;
 }
+  /* section-woman */
 .container.title.woman{
   width: 80%;
 }
@@ -420,4 +422,5 @@ div .number-plus{
   margin-top: 50px;
   width: 220px;
 }
+  /* section-woman */
 /* /main */
