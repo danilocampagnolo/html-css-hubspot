@@ -439,7 +439,7 @@ div .number-plus{
 .column {
   float: left;
   width: calc((100% / 4) - 20px);
-  margin: 10px;
+  /* margin: 10px; */
 }
 .column li{
   display: block;
@@ -448,14 +448,14 @@ div .number-plus{
   font-size: 12px;
   text-transform: capitalize;
 }
-.column a{
-  color: #CBD6E2;
+/* .column a{
+  color: #CBD6E2; */
 }
-.column li:first-child{
+/* .column li:first-child{
   margin-top: 20px;
   padding-bottom: 10px;
   font-weight: 700;
-  color: white;
+  color: white; */
 }
 .column li:nth-child(7){
   width: 140px;
@@ -464,7 +464,7 @@ div .number-plus{
 .column .button {
   text-align: center;
   border: 0px;
-  background-color: #DADEE0;
+  /* background-color: #DADEE0; */
   padding: 0px 0px 0px 0px;
   margin-top: 5px;
   margin-bottom: 5px;
