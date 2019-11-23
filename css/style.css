@@ -431,7 +431,6 @@ div .number-plus{
 /* /main */
 /* footer */
   /* footer-top */
-
 .container.footer-top::after{
   content: "";
   display: table;
@@ -443,12 +442,13 @@ div .number-plus{
   margin: 10px;
 }
 .column li{
-  color: white;
   display: block;
   margin-left: 0;
   line-height: 35px;
   font-size: 12px;
   text-transform: capitalize;
+}
+.column a{
   color: #CBD6E2;
 }
 .column li:first-child{
@@ -459,6 +459,7 @@ div .number-plus{
 }
 .column li:nth-child(7){
   width: 140px;
+  line-height: 30px;
 }
 .column .button {
   text-align: center;
@@ -475,4 +476,20 @@ div .number-plus{
 .social i{
   color: #DADEE0;
   margin-right: 16px;
+}
+  /* /footer-top */
+  /* footer-bottom */
+.footer-bottom{
+  margin-top: 50px;
+}
+.footer-bottom-top{
+  text-align: center;
+  border-bottom: 1px solid #CBD6E2;
+  padding-bottom: 15px;
+}
+.footer-bottom-top a{
+  color: #CBD6E2;
+  font-size: 12px;
+  padding-right: 20px;
+  text-decoration: none;
 }
