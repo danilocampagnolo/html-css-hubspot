@@ -363,6 +363,9 @@ div .number-plus{
 }
   /* /section-numbers */
   /* section-woman */
+.section-woman {
+  background-color: white;
+}
 .companies{
   width: 70%;
   margin:auto;
